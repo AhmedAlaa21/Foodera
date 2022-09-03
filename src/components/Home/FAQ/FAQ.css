@@ -1,0 +1,26 @@
+.faq{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.faq .row{
+    margin: 40px 0;
+}
+
+
+.faq .row h2{
+    margin-bottom: 70px;
+}
+.faq .row h5{
+    text-align: left;
+}
+
+.faq .row p {
+    text-align: left;
+}
+
+.faq .col-md-6{
+    margin-bottom: 20px;
+}

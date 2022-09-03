@@ -1,0 +1,9 @@
+:root{
+  --primaryColor: #a82c48;
+  --seccondaryColor: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}

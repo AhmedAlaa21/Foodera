@@ -1,0 +1,72 @@
+.best-ingredients {
+  background-color: transparent;
+  margin-top: 60px;
+  color: #fff;
+  padding: 25px 0;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  height: auto;
+}
+
+.best-ingredients img {
+  max-width: 100%;
+}
+
+.best-ingredients h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px;
+  color: #43131c;
+  font-family: "Tajawal", sans-serif;
+  margin: 10px 0;
+  width: 80%;
+  text-align: left;
+}
+
+.best-ingredients p {
+  color: #333;
+  text-align: left;
+  line-height: 28px;
+  font-family: "Tajawal", sans-serif;
+  margin-top: 15px;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+  justify-content: start;
+}
+i {
+  margin-right: 12px;
+}
+.fa-check {
+  color: var(--primaryColor);
+  font-size: 30px;
+}
+
+.best-ingredients button {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid var(--primaryColor);
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--primaryColor);
+  text-align: center;
+  display: block;
+}
+
+.best-ingredients button:hover {
+  background-color: transparent;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+  transition: all 0.4s ease;
+}

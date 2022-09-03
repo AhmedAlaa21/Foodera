@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #a82d49;
+  color: #fff;
+}
+
+footer .icons{
+    margin-bottom: 50px;
+}
+footer .features{
+    margin-bottom: 30px;
+}
+
+footer i {
+ font-size: 20x;
+ margin-right: 40px;
+}
+
+footer p {
+  display: inline;
+  margin-right: 40px;
+}

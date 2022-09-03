@@ -1,0 +1,50 @@
+.paralex {
+  background-image: url("http://demo.tutsflow.com/foodera/images/parallax/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.paralex .row {
+  margin: 30px 0 50px 0;
+}
+
+.paralex h2 {
+  width: 100%;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #a82d49;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 15px 0;
+  line-height: 50px;
+  text-align: center;
+}
+.paralex p {
+  font-size: 17px;
+  color: #545577;
+  font-weight: 400;
+  margin: 20px 0 50px 0;
+  line-height: 35px;
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+}
+
+.paralex a {
+  color: #000;
+  text-decoration: none !important;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.paralex a:hover {
+  color: #a82d49;
+}
+
+.paralex i {
+  margin-right: 15px;
+}

@@ -1,0 +1,67 @@
+header {
+  background-image: url("http://demo.tutsflow.com/foodera/images/bg/3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  text-align: left;
+  overflow: hidden;
+  padding: 25px 0;
+  margin-top: 60px;
+  
+}
+
+header .row {
+  margin: 50px 0;
+}
+
+header h2 {
+  color: #43131c;
+  font-size: 55px;
+  line-height: 60px;
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  width: 80%;
+}
+
+header p {
+  color: #333;
+  font-family: "Tajawal", sans-serif;
+  margin: 15px 0;
+}
+
+header button {
+  width: 140px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid var(--primaryColor);
+  margin: 20px 10px 20px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .order {
+  color: #fff;
+  background-color: var(--primaryColor);
+}
+
+header .order:hover {
+  background-color: transparent;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+  transition: 0.3s ease;
+}
+
+header .learn-more {
+  color: #43131c;
+  background-color: white;
+  box-shadow: 5px #333;
+}
+
+header .learn-more:hover {
+  background-color: transparent;
+  border: 3px solid var(--primaryColor);
+  transition: 0.4s ease-in-out;
+}

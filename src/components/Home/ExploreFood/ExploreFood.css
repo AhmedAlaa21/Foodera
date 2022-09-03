@@ -1,0 +1,99 @@
+.explore-food {
+  margin-top: 50px 0;
+  width: 100%;
+  height: auto;
+  padding: 25px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.explore-food .row:first-child {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.explore-food h2 {
+  width: 100%;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #000;
+  font-family: 'Tajawal', sans-serif;
+  margin: 15px 0 0 5px;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+.explore-food p {
+  text-align: center;
+  font-size: 17px;
+  color: #545577;
+  font-weight: 500;
+  margin: 20px;
+  line-height: 35px;
+  font-family: "Tajawal", sans-serif;
+}
+
+.explore-food .box {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid #f6f6f6;
+  margin-top: 10px;
+  padding-bottom: 15px;  
+  text-align: left;
+}
+
+.explore-food img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.explore-food h5 {
+  margin: 10px 0 0 5px;
+}
+.explore-food span {
+  display: block;
+  margin: 0 0 10px 5px;
+  color: #444;
+  font-weight: 400;
+}
+
+.explore-food h6 {
+  display: inline;
+  color: var(--primaryColor);
+  font-size: 24px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.explore-food .old-price {
+  color: grey;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.explore-food button {
+  width: 140px;
+  height: 50px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--primaryColor);
+  text-align: center;
+  padding: 0px 5px;
+  display: block;
+  border: 0;
+}
+
+.explore-food button:hover {
+  background-color: transparent;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+  text-align: center;
+  transition: 0.4s ease;
+}
