@@ -1,6 +1,7 @@
+
 const Data = [
   {
-    img: "http://demo.tutsflow.com/foodera/images/foods/01.jpg",
+    img: "images/01.jpg",
     title: "Vegetarian Burger Sandwich",
     time: "30 - 45 Minutes",
     price: "9.20",
@@ -9,7 +10,7 @@ const Data = [
     id:1
   },
   {
-    img: "http://demo.tutsflow.com/foodera/images/foods/02.jpg",
+    img: "../images/02.jpg",
     title: "Rainbow Vegetable Sandwich",
     time: "15 - 20 Minutes",
     price: "10.50",
@@ -18,7 +19,7 @@ const Data = [
     id:2,
   },
   {
-    img: "http://demo.tutsflow.com/foodera/images/foods/03.jpg",
+    img: "../images/01.jpg",
     title: "Rasperry Stuffed French Toast",
     time: "10 - 15 Minutes",
     price: "12.50",

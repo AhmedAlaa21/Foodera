@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import "./Navs.css";
+import logo from '../../../images/logo.png'
 
 const Navs = () => {
   return (
@@ -8,7 +9,7 @@ const Navs = () => {
       <Navbar expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="#home">
-            <img src="images/logo.png" alt="Foodera" />
+            <img src= {logo} alt="Foodera" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
